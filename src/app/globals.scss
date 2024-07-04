@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  overflow-y: scroll;
+}
+
+p {
+  margin: 0;
+}
+
+.W400 {
+  font-weight: 400;
+}
+
+.W500 {
+  font-weight: 500;
+}
+
+.W700 {
+  font-weight: 700;
+}
+
+:root {
+  --black: #000000;
+  --black-400: #313940;
+  --black-600: #2F3941;
+  --green-100: #00976A;
+  --white: #FFFFFF;
+  --white-100: #E6E6E6;
+  --white-200: #E9EBED;
+  --white-400: #F8F8F8;
+  --blue-100: #5090C8;
+  --orange-100: #FF8730;
+  --orange-900: #FFDEC6;
+  --red-100: #FF1C1C;
+  --red-900: #E9D0D0;
+}

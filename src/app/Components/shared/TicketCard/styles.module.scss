@@ -1,0 +1,37 @@
+.card {
+    width: 100%;
+    background: var(--white-400);
+    border-radius: 6px;
+    border: 2px solid var(--white-200);
+    box-sizing: border-box;
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 4px;
+    }
+
+    .topContent {
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-items: center;
+
+        .time {
+            display: flex;
+            align-items: center;
+            column-gap: 6px;
+            text-transform: capitalize;
+        }
+    }
+
+    hr {
+        margin: 0;
+        border: 1px solid var(--white-200);
+    }
+
+    .bottomContainer {
+        padding: 25px 20px;
+    }
+}

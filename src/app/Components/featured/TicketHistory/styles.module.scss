@@ -1,0 +1,48 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid var(--white-100);
+    margin-top: 30px;
+
+
+    .tickets {
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 20px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: var(--white-400);
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--blue-100);
+        border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--white-400);
+    }
+
+    .closed {
+        height: 0;
+        margin-top: 0;
+    }
+
+    .opened {
+        height: 525px;
+        margin-top: 30px;
+    }
+}

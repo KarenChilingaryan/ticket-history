@@ -1,0 +1,37 @@
+.buttonElement {
+    border-radius: 8px;
+    color: var(--white);
+    border: 0;
+    cursor: pointer;
+    height: max-content;
+    padding: 16px 20px 16px 20px;
+    font-family: Roboto;
+}
+
+.green {
+    padding: 8px 16px 8px 16px;
+    background: var(--green-100);
+}
+
+.blue {
+    background: var(--blue-100);
+    padding: 16px 28px 16px 28px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.orange {
+    background: var(--orange-900);
+    color: var(--orange-100);
+    font-size: 28px;
+    font-weight: 500;
+    padding: 8px 26px 8px 26px;
+}
+
+.red {
+    background: var(--red-900);
+    color: var(--red-100);
+    font-size: 28px;
+    font-weight: 500;
+    padding: 8px 26px 8px 26px;
+}

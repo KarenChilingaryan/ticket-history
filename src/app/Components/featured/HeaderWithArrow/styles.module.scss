@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.arrowIcon {
+    transition: 0.5s;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.closeIcon {
+    transform: rotate(180deg);
+}
+
+.openIcon {
+    transform: rotate(0);
+}
+
+.children {
+    margin: 0 40px 0 auto;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
