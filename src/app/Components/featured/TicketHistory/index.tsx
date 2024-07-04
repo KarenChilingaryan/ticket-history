@@ -26,19 +26,6 @@ const TicketHistory = () => {
     }, [])
 
     return <div className={styles.container}>
-        {/* <div className={styles.header}>
-            <BoldTitle28>
-                Ticket History
-            </BoldTitle28>
-            <Image
-                src={"icons/arrow.svg"}
-                width={32}
-                height={32}
-                alt="arrow"
-                className={`${styles.arrowIcon} ${closeTickets ? styles.closeIcon : styles.openIcon}`}
-                onClick={() => setCloseTickets(!closeTickets)}
-            />
-        </div> */}
         <HeaderWithArrow title="Ticket history" tabChange={setCloseTickets} />
         <div className={`${styles.tickets} ${closeTickets ? styles.closed : styles.opened}`}>
             {usersData && usersData.map((user: any) => {
